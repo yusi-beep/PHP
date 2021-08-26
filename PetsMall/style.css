@@ -1,0 +1,253 @@
+body{
+	background: linear-gradient(#0066cc,#66b3ff);
+	margin: 0;
+}
+#container{
+	width: 1520;
+	background: linear-gradient(#00ff00,#66b3ff,#4dff4d);
+	margin: 0 auto;
+}
+/*Заглавна част*/
+#title{
+	width:1520;
+	height:80px;
+	background-color:rgb(0, 153, 0,0.7);
+	text-align:center;
+	/*position:fixed;*/
+	
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+#logo{
+	font-family:"Times New Roman",Georgia, serif;
+	font-size:5em;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+	font-variant:small-caps;
+	vertical-align:super;
+	text-shadow:3px 3px 7px gray;
+	
+}
+/*Снимки на оферти*/
+img#photo1{
+	position:absolute;
+	float:left;
+	width:250;
+	height:250;
+	padding:25 ;
+	
+}
+img#photo2{
+	position:absolute;
+	width:350;
+	height:350;
+}
+img#lentapic{
+	float:left;
+	width:110px;
+	height:110px;
+	margin-top:15px;
+	margin-bottom:5px;
+	margin-left:35px;
+}
+img#picX2{
+	float:left;
+	width:200px;
+	height:200px;
+	margin-top:10px;
+	margin-left:35px;
+}
+
+img#linepic{
+	width:200px;
+	height:200px;
+	border-radius:10px 10px 0px 0px;
+}
+h2{
+	font-family:serif;
+}
+.name{
+	text-align:center;
+	font-family:"Times New Roman",Georgia, serif;
+	font-weight:bold;
+	vertical-align:super
+	
+}
+
+.price{
+	font-size:2em;
+	
+}
+/*Форма за попълване на данни за доставка*/
+form#form{
+	
+	background-color:#f2f2f2;
+	margin-bottom:0;
+	border:1px solid black;
+	padding:0px 10px;
+	border-radius: 10px;
+}
+.comment{
+	width: 82%;
+	height: 51px;
+	padding: 12px 20px;
+	margin: 10px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+/* Бутони*/
+.button{
+	width:220;
+	height:50;
+	background-color: #005ce6;
+	font-size:35px;
+	color:white;
+	cursor:pointer;
+	border-radius: 20px;
+}	
+.buttonplus{
+	width:300;
+	height:60;
+	background-color: #005ce6;
+	margin-left:100;
+	margin-top:10;
+	font-size:30px;
+	color:white;
+	cursor:pointer;
+	border-radius: 20px
+}
+p{
+	font-family:"Times New Roman",Georgia, serif;
+	margin-top:1;
+}
+.p1{
+	font-size:1.2em;
+	
+}
+/* Бутони*/
+/*.button{
+	width:220;
+	height:50;
+	background-color: #005ce6;
+	font-size:35px;
+	color:white;
+	cursor:pointer;
+	border-radius: 20px;
+}*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #4CAF50; 
+  color:black ; 
+}
+
+.button1:hover {
+  background-color: #5cd65c;
+  color: black;
+}
+
+/*.buttonplus{
+	width:300;
+	height:60;
+	background-color: #005ce6;
+	margin-left:100;
+	margin-top:10;
+	font-size:30px;
+	color:white;
+	cursor:pointer;
+	border-radius: 20px
+}*/
+.buttonplus{
+	background-color: #4CAF50; 
+  color: black; 
+  border: none;
+}
+.buttonplus:hover{
+	 background-color: #5cd65c;
+  color: black;
+}
+p{
+	font-family:"Times New Roman",Georgia, serif;
+	margin-top:1;
+}
+.centert{
+	text-align:center;
+	color:black;
+	font-size:1em;
+}
+/*Раздел категории*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  /*pointer-events: auto;*/
+}
+th{background-color:#f5f5f5;}
+div#category{
+	width:270px;
+	height:350px ;
+	float:left;
+	border-radius:0 0 10px 0;
+	background-color:#e6f2ff;
+	/*position:fixed;*/
+}
+.select{
+	width:255;
+	height:30;
+	padding: 10px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+	color:black;
+}
+.select:hover {background-color:#f5f5f5;}
+.selmark{background-color:#f5f5f5;}
+.fas1{
+	font-size:24px; 
+	float:right; 
+	transform: translate(-50%, -160%);
+}
+div#reklama{
+	width:250px;
+	height:520px;
+	float:left;
+	margin-left:10px;
+	margin-top:390px;
+	position:absolute;
+	border-radius:10px;
+	background-color:none;
+	text-align:center;
+}
+#reklampic{
+	width:250px;
+	height:250px;
+	background-color:red;
+	border:1px solid black;
+	border-radius:10px 20px;
+	margin-bottom:20px;
+}
+#input{
+	width: 500px;
+}
